@@ -1,0 +1,139 @@
+
+/* ear */
+
+.ear--left{
+    position: absolute;
+    background-color: #fff;
+
+    height: 50px;
+    width: 20px;
+
+    border-radius: 90%;
+
+    top: 11px;
+}
+
+.ear--left_inter{
+    position: absolute;
+    background-color: #ffae52;
+
+    height: 35px;
+    width: 15px;
+
+    border-radius: 90%;
+
+    top: 15px;
+    left: 0;
+    right: 0;
+
+    margin: 0 auto;
+}
+
+.ear--right{
+    position: absolute;
+    background-color: #fff;
+
+    height: 50px;
+    width: 20px;
+
+    border-radius: 90%;
+
+    top: 11px;
+    right: 0;
+}
+
+.ear--right_inter{
+    position: absolute;
+    background-color: #ffae52;
+
+    height: 35px;
+    width: 15px;
+
+    border-radius: 90%;
+
+    top: 15px;
+    left: 0;
+    right: 0;
+
+    margin: 0 auto;
+}
+
+/* head */
+
+.head{
+    position: absolute;
+    background-color: #fff;
+
+    height: 40px;
+    width: 55px;
+
+    border-radius: 90%;
+
+    top: 40px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+/* eyes */
+
+.eye--left{
+    position: absolute;
+    background-color: #000;
+
+    height: 5px;
+    width: 5px;
+
+    border-radius: 50px;
+
+    top: 54px;
+    right: 47px;
+
+    animation-name: close-eyes;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.eye--right{
+    position: absolute;
+    background-color: #000;
+
+    height: 5px;
+    width: 5px;
+
+    border-radius: 50px;
+
+    top: 54px;
+    left: 47px;
+
+    animation-name: close-eyes;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes close-eyes{
+    0%{
+        height: 5px;
+        transform: translate(0, 0px);
+    }
+    5%{
+        height: 0px;
+        transform: translate(0px, 2px);
+    }
+    10%{
+        height: 5px;
+        transform: translate(0, 0px);
+    }
+}
+
+/* btn_Action */
+
+.btn_action{
+    position: absolute;
+    z-index: 10;
+
+    height: 60px;
+    width: 80px;
+    
+    cursor: pointer;
+}
